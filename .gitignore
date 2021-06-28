@@ -425,3 +425,13 @@ fabric.properties
 # BeatPulse healthcheck temp database
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 # End of https://www.gitignore.io/api/rider,csharp,visualstudio
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
