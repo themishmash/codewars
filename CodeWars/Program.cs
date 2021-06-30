@@ -41,6 +41,7 @@ namespace CodeWars
            //Console.WriteLine(Arraydiff.ArrayDiff(new int[] {1,2,2,2,3}, new int[] {2}) );
          // Console.WriteLine(CountTheSmileyFaces.CountSmileys(new[] {";", ")", ";*", ":$", "8-D"}));
             Console.WriteLine(OddOrEven.ReturnOddOrEven(new []{0, 1, 4}));
+            var hello = "";
           
         }
     }
