@@ -42,7 +42,7 @@ namespace CodeWars
          // Console.WriteLine(CountTheSmileyFaces.CountSmileys(new[] {";", ")", ";*", ":$", "8-D"}));
             Console.WriteLine(OddOrEven.ReturnOddOrEven(new []{0, 1, 4}));
             var hello = "";
-          
+          //test
         }
     }
 }
