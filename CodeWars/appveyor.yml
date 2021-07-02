@@ -2,6 +2,6 @@ before_build:
  - nuget restore
 build_script:
  - choco install "sonarscanner-msbuild-net46" -y
- - SonarScanner.MSBuild.exe begin /k:"**YourUniqueProjectName**" /d:"sonar.host.url=https://sonarcloud.io" /o:"**YourSonarQubeOrganisationKey**" /d:"sonar.login=**YourSonarQubeToken**"
- - msbuild /verbosity:quiet "**YourProjectName**.sln"
- - SonarScanner.MSBuild.exe end /d:"sonar.login=**YourSonarQubeToken**"
+ - SonarScanner.MSBuild.exe begin /k:"codewars" /d:"sonar.host.url=https://sonarcloud.io" /o:"MyOrganisation" /d:"f43b1588191625d3a1f5fc8fdccff79f19709db8"
+ - msbuild /verbosity:quiet "CodeWars.sln"
+ - SonarScanner.MSBuild.exe end /d:"sonar.login=f43b1588191625d3a1f5fc8fdccff79f19709db8"
